@@ -8,7 +8,6 @@ _site
 npm-debug.log
 package.box
 playbook.retry
-provision-post.sh
 provision-pre.sh
 #site.yml
 test.json
