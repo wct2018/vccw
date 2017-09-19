@@ -55,8 +55,6 @@ db_pass: wordpress
 #
 plugins:
   - akismet
-  - buddypress
-  - bbpress
   - camptix-pagseguro
   - camptix-payfast-gateway
   - jetpack
