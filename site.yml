@@ -15,15 +15,15 @@ cpus: 1
 #
 # Network Settings
 #
-hostname: wctokyo2017.dev
-ip: 192.168.33.12
+hostname: wctokyo2018.local
+ip: 192.168.33.14
 
 #
 # WordPress Settings
 #
 version: latest
 lang: ja
-title: WordCamp Tokyjo 2017
+title: WordCamp Tokyo 2018
 multisite: true
 rewrite_structure: /archives/%post_id%
 
@@ -54,14 +54,25 @@ db_pass: wordpress
 # Plugin's slug or url to the plugin's slug.
 #
 plugins:
-  - akismet
-  - camptix-pagseguro
-  - camptix-payfast-gateway
+  - camptix
   - jetpack
-  - json-rest-api
   - wp-multibyte-patch
   - wordpress-importer
   - tagregator
+  - gutenberg
+  - bbpress
+  - custom-content-width
+  - wp-super-cache
+  - campt-indian-payment-gateway
+  - camptix-kdcpay-gateway
+  - camptix-mercadopago
+  - camptix-pagseguro
+  - camptix-payfast-gateway
+  - camptix-trustcard
+  - camptix-trustpay
+  - liveblog
+  - polldaddy
+  - supportflow
 
 #
 # WordPress Default Theme
@@ -73,7 +84,7 @@ theme: ''
 # WordPress Options
 #
 options:
-  blogdescription: '今年のテーマは「夜明け」2016年9月17日(土) ~ 18日(日) 開催'
+  blogdescription: 'Challenge!'
 
 #
 # WordPress Multisite Options
