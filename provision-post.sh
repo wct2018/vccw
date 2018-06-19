@@ -28,7 +28,7 @@ wp plugin activate camptix
 
 
 # WordPress.org meta plugins(Only in meta environment)
-META_PLUGINS=( camptix-attendance camptix-badge-generator camptix-mailchimp email-post-changes-specific-post jquery-ui-css multi-event-sponsors wc-canonical-years wc-fonts wc-post-types wcpt wordcamp-api wordcamp-coming-soon-page wordcamp-dashboard-widgets wordcamp-docs wordcamp-forms-to-drafts wordcamp-mentors wordcamp-organizer-reminders wordcamp-payments wordcamp-payments-network wordcamp-remote-css wordcamp-reports wordcamp-participation-notifier wordcamp-site-cloner wordcamp-qbo-client wporg-profiles-wp-activity-notifier json-rest-api wordcamp-wiki wordcamp-qbo bbpress-network-templates camptix-admin-flags wordcamp-participation-notifier wordcamp-site-cloner wordcamp-qbo-client wporg-profiles-wp-activity-notifier json-rest-api wordcamp-wiki wordcamp-qbo)
+META_PLUGINS=( camptix-attendance camptix-badge-generator camptix-mailchimp email-post-changes-specific-post jquery-ui-css multi-event-sponsors wc-canonical-years wc-fonts wc-post-types wcpt wordcamp-api wordcamp-coming-soon-page wordcamp-dashboard-widgets wordcamp-docs wordcamp-forms-to-drafts wordcamp-mentors wordcamp-organizer-reminders wordcamp-payments wordcamp-payments-network wordcamp-remote-css wordcamp-reports wordcamp-participation-notifier wordcamp-site-cloner wordcamp-qbo-client json-rest-api wordcamp-wiki wordcamp-qbo bbpress-network-templates camptix-admin-flags wordcamp-participation-notifier wordcamp-site-cloner wordcamp-qbo-client json-rest-api wordcamp-wiki wordcamp-qbo)
 for i in "${META_PLUGINS[@]}"
 do :
 	if [ ! -e /var/www/html/wp-content/plugins/$i ]; then
